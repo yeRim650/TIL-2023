@@ -1,0 +1,15 @@
+### apache poi
+* 엑셀 파일 읽어 DB 저장하기
+1. 이미 있는 엑셀 파일을 사용해서 workbook 인스턴스를 생성한다.
+
+2. 해당 workbook에서 원하는 sheet를 가져온다.
+
+3. sheet내에서 읽고자 하는 행 번호를 지정한다.
+
+4. row에 있는 모든 cell을 순회하면서 읽는다.
+
+5. 3과 4의 과정을 sheet 내의 모든 행을 읽을 때까지 반복한다.
+
+- List<Map<String, String>> excelContent - ex Map<"cell의 이름","cell의 값">
+- vo.setData(excelContent)
+- Mydatis insert 파라미터 data.key값
