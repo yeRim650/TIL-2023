@@ -17,3 +17,4 @@
   * [[Spring] Excel 파일 업로드/ import / 엑셀업로드 / 첨부파일 / 엑셀 값 읽기 / Java](https://daydreamer-92.tistory.com/42)
   * [[java] poi 활용하여 excel upload 후 db insert / excel upload and DB insert](https://take-it-into-account.tistory.com/175)
   * [[2020.01.30] Excel upload 후 db저장](https://eugene-kim.tistory.com/46)
+  * [[Java] 대용량 Insert 상세 설명 (Batch, Dynamic sql)](https://chobopark.tistory.com/306)
