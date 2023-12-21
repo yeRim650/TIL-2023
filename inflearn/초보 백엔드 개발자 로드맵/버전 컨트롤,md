@@ -1,0 +1,21 @@
+#  초보 백엔드 개발자 로드맵
+### 버전 컨트롤
+* Git
+    * 분산형 버전 관리 시스템
+    * 로컬 머신에 있는 코드와 분산 서버에 있는 코드가 완전히 동일한 구조로 되어 있으며 로컬 머신의 코드를 git push라는 명령어로 업로드를 할 수 있다.
+    * 깃 세가지 영역 : 워킹 디렉토리(작업을 하고 있는 작업 디렉토리, local Repository), 스테이징 에리어(git add시 올라가는 영역), git directiory(git commit시 올라가는 영역,Repository)
+    * git 명령어
+        * (vi text.txt | 파일작성)
+        * git add test.txt
+        * git status | 스테이징 에리어에 올라간 파일 확인
+        * git commit -m 'test' | Repository에 올림 (Repository에 올라가면 버전관리 가능)(-m message 약자)
+        * git log --oneline (깃 로그)
+        * git push (깃 원격서버에 파일을 올림)
+        * git pull
+* GitHub
+    * pull requests
+        * 코드 관리자가 아닌 사람이 코드 수정 요청을 할때 사용하는 메뉴
+    * actions
+        * 코드 저장소에 어떤 이벤트가 일어날 때 특정 작업이 일어나게 하거나 주기적을 어떤 작업들을 반복시켜서 실행하고 싶은 경우 사용
+    * wiki
+        * 해당 프로젝트의 위키 문서들을 저장할 수 있는 공간
